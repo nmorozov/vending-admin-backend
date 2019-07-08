@@ -1,0 +1,50 @@
+{
+  "name": "vending-admin-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "migrate": "db-migrate up:all"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/rugadget-vending/vending-admin-backend.git"
+  },
+  "author": "RuGadget",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/rugadget-vending/vending-admin-backend/issues"
+  },
+  "homepage": "https://gitlab.com/rugadget-vending/vending-admin-backend#README",
+  "dependencies": {
+    "@koa/cors": "^2.2.2",
+    "db-migrate": "^0.11.3",
+    "db-migrate-mysql": "^1.1.10",
+    "gmail-send": "^1.2.14",
+    "iconv": "^2.3.1",
+    "js-sha512": "^0.8.0",
+    "koa": "^2.5.3",
+    "koa-body": "^4.0.4",
+    "koa-morgan": "^1.0.1",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.4.0",
+    "koa-send": "^5.0.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.11",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.1",
+    "oauth2-server": "^3.0.1",
+    "sequelize": "^4.38.1",
+    "tar": "^4.4.6"
+  },
+  "devDependencies": {
+    "eslint-config-koa": "^2.0.2",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "dev": {
+      "host": "localhost",
+      "user": "root",
+      "password" : "example",
+      "database": "vending_backend",
+      "driver": "mysql",
+      "multipleStatements": true
+    },
+    "prod": {
+      "host": "localhost",
+      "user": "root",
+      "password" : "rugadget",
+      "database": "vending_backend",
+      "driver": "mysql",
+      "multipleStatements": true
+    }
+  }
+  

@@ -1,0 +1,13 @@
+stages:
+  - build
+
+build:
+  stage: build
+  tags:
+    - vending
+  script:
+    - cp -r ./* /var/www/vending-backend
+    - cd /var/www/vending-backend
+    - yarn install
+    - db-migrate up:all --env prod --config ./config/database.json
+    - pm2 restart vending-admin
