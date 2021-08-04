@@ -37,7 +37,7 @@
     "mysql2": "^1.6.1",
     "oauth2-server": "^3.0.1",
     "sequelize": "^4.38.1",
-    "tar": "^4.4.6"
+    "tar": "^4.4.15"
   },
   "devDependencies": {
     "eslint-config-koa": "^2.0.2",
